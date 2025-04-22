@@ -19,6 +19,7 @@ body {
   }
   
   .top-bar select {
+    width: 75%;
     padding: 10px;
     font-size: 16px;
     border-radius: 8px;
