@@ -30,9 +30,9 @@ nextButton.addEventListener("click", () => {
 
 function updateCard() {
   const item = vocabData[currentCategory][vocabIndex];
-  vocabDisplay.textContent = item.word;
-  pronunciationDisplay.textContent = item.pronunciation;
-  meaningDisplay.textContent = item.meaning;
+  vocabDisplay.textContent = item.word || item.vocab || "";
+  pronunciationDisplay.textContent = item.pronunciation || "";
+  meaningDisplay.textContent = item.meaning || "";
 }
 
 fetch('vocab.json')
