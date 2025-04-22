@@ -6,6 +6,8 @@ html, body {
     background-color: #fdf6e3;
     box-sizing: border-box;
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
   }
   
   .container {
@@ -49,8 +51,9 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 16px;
     overflow: hidden;
+    box-sizing: border-box;
   }
   
   .card {
@@ -59,13 +62,15 @@ html, body {
     background-color: #ffffff;
     border-radius: 24px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    padding: 30px 25px;
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     line-height: 2;
+    box-sizing: border-box;
+    overflow: hidden;
   }
   
   .card .vocab {
@@ -113,3 +118,4 @@ html, body {
     background-color: #001f3f;
     transform: scale(0.96);
   }
+  
