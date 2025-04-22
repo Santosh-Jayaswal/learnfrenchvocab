@@ -8,6 +8,7 @@ html, body {
     overflow: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
+    touch-action: manipulation;
   }
   
   .container {
@@ -112,6 +113,7 @@ html, body {
     font-weight: 600;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.1s ease-in-out, background-color 0.3s;
+    touch-action: manipulation;
   }
   
   button:active {
