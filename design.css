@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fdf6e3;
+    box-sizing: border-box;
+  }
+  
+  .top-bar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002b5c;
+    padding: 0 20px;
+  }
+  
+  .top-bar select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffffff;
+    color: #002b5c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='navy' class='bi bi-caret-down-fill' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658c-.566-.636-.106-1.658.753-1.658h9.592c.86 0 1.32 1.022.753 1.658l-4.796 5.482a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+  }
+  
+  .middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 90%;
+    height: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+  }
+  
+  .card .vocab {
+    font-size: 28px;
+    font-weight: bold;
+    color: #002b5c;
+  }
+  
+  .card .pronunciation {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #444;
+  }
+  
+  .card .meaning {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222;
+  }
+  
+  .button-container {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #002b5c;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.1s ease-in-out, background-color 0.3s;
+  }
+  
+  button:active {
+    background-color: #001f3f;
+    transform: scale(0.96);
+  }
+  
