@@ -12,10 +12,13 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
   }
   
   .top-bar {
-    flex: 0 0 10%;
+    flex: 0 0 auto;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +54,6 @@ html, body {
   
   .card {
     width: 90%;
-    height: 100%;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
@@ -84,7 +86,9 @@ html, body {
   }
   
   .button-container {
-    flex: 0 0 10%;
+    flex: 0 0 auto;
+    height: 10vh;
+    min-height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,4 +110,3 @@ html, body {
     background-color: #001f3f;
     transform: scale(0.96);
   }
-  
