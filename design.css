@@ -7,10 +7,11 @@ body {
     height: 100vh;
     background-color: #fdf6e3;
     box-sizing: border-box;
+    overflow: hidden;
   }
   
   .top-bar {
-    height: 10vh;
+    flex: 0 0 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,15 +38,16 @@ body {
   }
   
   .middle {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   
   .card {
     width: 90%;
-    height: 80%;
+    height: 100%;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
@@ -78,7 +80,7 @@ body {
   }
   
   .button-container {
-    height: 10vh;
+    flex: 0 0 10%;
     display: flex;
     justify-content: center;
     align-items: center;
